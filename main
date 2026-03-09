@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        Scanner sc2 = new Scanner(System.in);
+
+        Pessoa p = new Pessoa();
+        System.out.println("Infome o Nome ");
+        p.Nome = sc2.nextLine();
+
+        System.out.println("Informe a Idade ");
+        p.idade = sc.nextInt();
+
+        System.out.println("altura ");
+        p.altura = sc.nextDouble();
+
+        System.out.println("Nome: " + p.Nome);
+        System.out.println("Nome: " + p.idade);
+        System.out.println("Nome: " + p.altura);
+    }
+}
